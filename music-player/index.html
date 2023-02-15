@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Music Player</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/icon.jpg"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Music Player</h1>
+
+  <div class="main_container">
+    <div class="music_player">
+      <h2 id="name">Bella Ciao</h2>
+      <h3 id="artist">El Profesor</h3>
+      <div class="img_container">
+        <img id="themeimg" src="images/m-1.jpg" alt="">
+        <audio src="sounds/m-1.mp3">
+        </audio>
+        <div class="music_controls">
+          <i class="fas fa-backward" id="prev"></i>
+          <i class="fas fa-play main_button" id="play"></i>
+          <i class="fas fa-forward" id="next"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="set">
+    <button id="1" class="w btn">1</button>
+    <button id="2" class="a btn">2</button>
+    <button id="3" class="s btn">3</button>
+    <button id="4" class="d btn">4</button>
+    <button id="5" class="j btn">5</button>
+    <button id="6" class="k btn">6</button>
+    <button id="7" class="l btn">7</button>
+  </div>
+
+
+  <footer class="footer">
+    Made with ❤ By Satyam
+  </footer>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

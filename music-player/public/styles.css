@@ -1,0 +1,171 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0404;
+
+}
+h2,h3{
+  margin: 0rem;
+  padding: 0rem;
+}
+.main_container{
+  width: 100vw;
+  height: 35rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 5rem;
+  margin-left: 0rem;
+}
+.btn {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #bba1a1;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 400px;
+  height: 225px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.music_player{
+  height: 28rem;
+  width: 25rem;
+  border-radius: 15px;
+  box-shadow: 0 1.2rem 3rem 0.5rem #485474;
+  padding: 3rem;
+  color: #DBEDF3;
+
+  text-align: center;
+  border: 10px solid #404B69;
+}
+.img_container{
+  height: 15rem;
+  width: 25rem;
+  margin: auto;
+  /* border-radius: 10%;
+  box-shadow: 0 1.2rem 0.5rem 0.5rem #485474; */
+}
+#themeimg{
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1.2rem 3rem 0.5rem #485474;
+  border: 10px solid #404B69;
+  border-radius: 10%;
+}
+.music_controls {
+   width: 20rem;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin-left: 2.5rem;
+   display: flex;
+   align-items: center;
+}
+.music_controls .main_button{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.music_controls .fas{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(0 1.2rem 3rem 0.5rem #ffffff);
+}
+#name{
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  color: #DBEDF3;
+  font-family: 'Arvo';
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: 500;
+  text-shadow: 1px 0 #DBEDF3;
+
+}
+#artist{
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  color: #DBEDF3;
+  font-family: 'Arvo';
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: 500;
+  text-shadow: 1px 0 #DBEDF3;
+
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+background-image: url('images/m-1.jpg');
+}
+
+.a {
+background-image: url('images/m-2.jpg');
+}
+
+.s {
+background-image: url('images/m-3.jpg');
+
+}
+
+.d {
+background-image: url('images/m-4.jpg');
+}
+
+.j {
+background-image: url('images/m-5.jpg');
+}
+
+.k {
+background-image: url('images/m-6.jpg');
+}
+
+.l {
+background-image: url('images/m-7.png');
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+.footer{
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0404;
+}
